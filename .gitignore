@@ -1,0 +1,22 @@
+# === Qt Creator & Compilación ===
+*.pro.user
+*.pro.user.*
+build-*/
+*.o
+*.a
+*.so
+
+# === Archivos Ejecutables ===
+trabajo
+game
+*.exe
+*.out
+
+# === Datos Dinámicos y Guardados (Partidas locales) ===
+Saved_game*.txt
+Saved_graveyard*.txt
+action_log*.txt
+
+# === Archivos del Sistema ===
+.DS_Store
+Thumbs.db
